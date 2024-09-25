@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Akenkan",
+    "slug": "Akenkan",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/hci_logo.jpg",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/hci_logo.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#213438",
+      "dark": {
+        "resizeMode": "cover",
+        "backgroundColor": "#213438"
+      }
+    },
+    "ios": {
+      
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kgyan.OneLibrary",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/hci_logo.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kgyan.OneLibrary",
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "bundler": "watchman",
+      "output": "static",
+      "favicon": "./assets/images/hci_logo.jpg"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {},
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f0ef023e-a9a8-4c21-99da-af6f893e69ee"
+      }
+    },
+    "owner": "kgyan",
+    "updates": {
+      "url": "https://u.expo.dev/f0ef023e-a9a8-4c21-99da-af6f893e69ee"
+    }
+  }
+}
